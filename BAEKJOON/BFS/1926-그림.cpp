@@ -17,6 +17,7 @@ void    check(int r, int c)
     int sz = 1;
     while (!q.empty())
     {
+
         int cr = q.front().first;
         int cc = q.front().second;
         q.pop();
